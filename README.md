@@ -24,3 +24,7 @@ GET ****/services/River_Flood_WMS?subscription-key=********* HTTP/1.1
 Host: ****.azure-api.net
 Cache-Control: no-cache
 ```
+
+## How to get the subscription key
+* You just subscribe to the API product in the API Management portal.
+* It's possible to create new subscription key in a self service manner
