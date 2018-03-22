@@ -1,8 +1,8 @@
 ## Authorization
 There are 2 ways to send a subscription key in requests to API Management.
 
-* Set the *Ocp-Apim-Subscription-Key* HTTP header
-* Set the *subscription-key* query string value in the URL
+* Set the *Ocp-Apim-Subscription-Key* HTTP header - prefered and more secure
+* Set the *subscription-key* query string value in the URL - only use if HTTP header mechanism is not possible. e.g. As the query is part of the URL it is more likely to be logged .
 
 
 e.g. 
