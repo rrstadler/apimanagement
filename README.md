@@ -1,7 +1,9 @@
-## Authorization
-There are 2 ways to send a subscription key in requests to API Management.
+# Azure API Management service
 
-* Set the *Ocp-Apim-Subscription-Key* HTTP header - prefered and more secure
+## Authorization
+There are 2 ways to send a subscription key in requests to the Azure API Management proxy.
+
+* Set the *Ocp-Apim-Subscription-Key* HTTP header - prefered and more secure (as not part of the URL query string)
 * Set the *subscription-key* query string value in the URL - only use if HTTP header mechanism is not possible. e.g. As the query is part of the URL it is more likely to be logged .
 
 
